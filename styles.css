@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/*Texts ----------------------------------*/
+#text1{
+    font-family: Inconsolata;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#text2{
+    font-family: Space Mono;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#text3{
+    font-family: Space Mono;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#text4{
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#text5{
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+/*Others ------------------------------*/
+img{
+    width: 76.5%;
+    height: auto;
+}
+
+#btn1{
+    font-family: Space Mono;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding-left: 4.3rem;
+    padding-right: 4.3rem;
+    padding-top: 2.4rem;
+    padding-bottom: 2.3rem;
+}
+
+/*Containers ----------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 97vh;
+}
+
+header{
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+main{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#item1{
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+@media screen and (min-width: 900px) {
+    *{
+        box-sizing: border-box;
+    }
+
+    /*Texts -----------------------------------*/
+    #text2{
+        font-size: 6.4rem;
+        margin-top: -1px;
+    }
+
+    #text3{
+        font-size: 2.4rem;
+        max-width: 390px;
+    }
+
+    /*Containers ---------------------------------*/
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    #item1{
+        width: 50%;
+        margin: auto;
+    }
+
+    #item2{
+        width: 50%;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    /*Others -------------------------------------*/
+    img{
+        width: 37.5vw;
+        height: auto;
+        vertical-align: middle;
+        max-width: 539.22px;
+    }
+}
